@@ -1,0 +1,62 @@
+// Google font
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700,700i,900');
+@import url('https://fonts.googleapis.com/css?family=Domine:400,700');
+
+// Font family
+$roboto: 'Roboto', sans-serif;
+$domine: 'Domine', serif;
+
+// Font sizes
+$font-size-base: 1.05em; 
+$font-size-small: 0.75em;
+$font-size-large: 1.5em;
+$font-size-x-large: 2em;
+$font-size-xx-large: 2.5em;
+$font-size-xxx-large: 3em;
+
+// Font weights, font style
+$font-weight-regular: 400;
+$font-weight-bold: 500;
+$font-weight-x-bold: 700;
+$font-italic: italic;
+$font-align-center: center;
+
+// Colors
+$medium-blue: #0000CD;
+$navy: #000080;
+$dark-red: #CC0000;
+$white: #FFFFFF;
+$black: #000000;
+$grey: #808080;
+$light-grey: #d9d7d7;
+$dark-grey: #434343;
+
+// Element Colors
+$font-color: $grey;
+$background-color: $white;
+$link-color: $dark-grey;
+$link-hover-color: $dark-red;
+$link-visited-color: $dark-grey;
+$link-active-color: $dark-grey;
+$border-color: $grey;
+$button-bg-color: $white;
+$button-font-color: $dark-grey;
+
+// Margins, Paddings, Border, Line height and Misc
+$padding-base: 0.5em;
+$padding-button: 0.5em 1.5em;
+$margin-base: 0.5em;
+$line-height-base: 2em;
+$cursor: pointer;
+$border: 1px solid $border-color;
+
+// Widths and Heights
+$width-full: 100%;
+
+// Media queries
+$mobile-small: "(min-width: 240px) and (max-width: 319px)";
+$mobile-large: "(min-width: 320px) and (max-width: 479px)";
+$tablet-small: "(min-width: 480px) and (max-width: 767px)";
+$tablet-large: "(min-width: 768px) and (max-width: 1023px)";
+$desktop-small: "(min-width: 1024px) and (max-width: 1279px)";
+$desktop-large: "(min-width: 1280px)";

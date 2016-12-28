@@ -1,0 +1,39 @@
+/* Forms styles */
+
+form {
+	padding: $padding-base * 2;
+
+	.left-fields {
+	    float: left;
+	    text-align: left;
+	    width: 48%;
+	}
+
+	.right-fields {
+	    float: right;
+	    text-align: right;
+	    width: 48%;
+	}
+
+	input[type="text"],
+	input[type="tel"],
+	input[type="email"],
+	textarea {
+	display: block;
+	    width: $width-full;
+	    border: $border;
+	    background: $white;
+	    padding: $padding-base * 2;
+	    margin-bottom: $margin-base * 2;
+	    font-family: inherit;
+	    @include transition(0.5s, ease, 0);
+
+	    &:hover {
+	    border-color: $dark-red;
+	    }
+	}
+
+	.buttons {
+	    clear: both;
+	}
+}

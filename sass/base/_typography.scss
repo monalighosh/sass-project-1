@@ -1,0 +1,27 @@
+body {
+	font-family: $roboto;
+	font-size: $font-size-base;
+	color: $grey;
+	line-height: $line-height-base;
+}
+
+h1 {
+	font-size: $font-size-xx-large;
+	color: $dark-red;
+	padding: $font-size-xx-large / 6;
+	font-weight: $font-weight-bold;
+
+}
+
+h2 {
+	@extend h1;
+	font-size: $font-size-x-large;
+	color: $black;
+	line-height: $line-height-base/1.5;
+}
+
+h3 {
+	@extend h1;
+	font-size: $font-size-large;
+	color: $dark-red;
+}

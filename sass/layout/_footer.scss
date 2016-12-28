@@ -1,0 +1,13 @@
+/* Footer styles */
+
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+	padding: $padding-base/2;
+	text-align: $font-align-center;
+	width: 300px;
+	background: $light-grey;
+	transform: translate(-50%);
+}
+

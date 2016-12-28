@@ -1,0 +1,188 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500,700,700i,900");
+@import url("https://fonts.googleapis.com/css?family=Domine:400,700");
+/*------ Reset Styles ------*/
+html, body, div, span, applet, object, iframe,
+h1,
+h2,
+h3, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline; }
+
+.wrapper {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto; }
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.05em;
+  color: #808080;
+  line-height: 2em; }
+
+h1, h2, h3 {
+  font-size: 2.5em;
+  color: #CC0000;
+  padding: 0.41667em;
+  font-weight: 500; }
+
+h2 {
+  font-size: 2em;
+  color: #000000;
+  line-height: 1.33333em; }
+
+h3 {
+  font-size: 1.5em;
+  color: #CC0000; }
+
+input[type="button"],
+input[type="submit"],
+input[type="reset"] {
+  background: #FFFFFF;
+  color: #434343;
+  cursor: pointer;
+  padding: 0.5em 1.5em;
+  margin: 1em 0;
+  border: 1px solid #808080;
+  font-weight: 700; }
+  input[type="button"]:visited, input[type="button"]:hover,
+  input[type="submit"]:visited,
+  input[type="submit"]:hover,
+  input[type="reset"]:visited,
+  input[type="reset"]:hover {
+    color: #FFFFFF;
+    background: #434343;
+    -webkit-transition: all 0.5s ease-out 0s;
+    -moz-transition: all 0.5s ease-out 0s;
+    -ms-transition: all 0.5s ease-out 0s;
+    transition: all 0.5s ease-out 0s; }
+
+/* Header styles */
+header {
+  width: 100%;
+  text-align: center; }
+  header .logo {
+    font-family: "Domine", serif;
+    font-size: 2.5em;
+    color: #000000;
+    font-weight: 700;
+    padding: 0.625em; }
+    @media (min-width: 240px) and (max-width: 319px) {
+      header .logo {
+        font-size: 1.5em; } }
+  header nav ul {
+    list-style-type: none; }
+  header nav li {
+    display: inline-block; }
+    header nav li:after {
+      content: "//"; }
+    header nav li:last-child:after {
+      content: ""; }
+  header nav a {
+    color: #434343; }
+    header nav a:visited {
+      color: #434343; }
+    header nav a:hover {
+      color: #CC0000; }
+    header nav a:active {
+      color: #434343; }
+  header nav a {
+    padding: 1.5em;
+    text-decoration: none; }
+    header nav a.current:link, header nav a.current:visited, header nav a.current:hover {
+      color: #CC0000;
+      font-weight: 500; }
+
+/* Footer styles */
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  padding: 0.25em;
+  text-align: center;
+  width: 300px;
+  background: #d9d7d7;
+  transform: translate(-50%); }
+
+/* Forms styles */
+form {
+  padding: 1em; }
+  form .left-fields {
+    float: left;
+    text-align: left;
+    width: 48%; }
+  form .right-fields {
+    float: right;
+    text-align: right;
+    width: 48%; }
+  form input[type="text"],
+  form input[type="tel"],
+  form input[type="email"],
+  form textarea {
+    display: block;
+    width: 100%;
+    border: 1px solid #808080;
+    background: #FFFFFF;
+    padding: 1em;
+    margin-bottom: 1em;
+    font-family: inherit;
+    -webkit-transition: all 0.5s ease 0;
+    -moz-transition: all 0.5s ease 0;
+    -ms-transition: all 0.5s ease 0;
+    transition: all 0.5s ease 0; }
+    form input[type="text"]:hover,
+    form input[type="tel"]:hover,
+    form input[type="email"]:hover,
+    form textarea:hover {
+      border-color: #CC0000; }
+  form .buttons {
+    clear: both; }
+
+/* Main section styles */
+section[role="main"] {
+  width: 100%;
+  text-align: center; }
+
+.horizontal-img {
+  width: 100%;
+  max-width: 1280px;
+  background: url(../images/bg.jpg);
+  height: 380px;
+  margin: 2em auto 0; }
+
+.welcome {
+  padding: 2em 0; }
+  .welcome h3 {
+    font-size: 1.5em;
+    color: #000000;
+    border-top: 1px solid #808080;
+    padding-top: 1em;
+    margin-top: 1em; }
+
+.features div {
+  width: 31.25%;
+  border-top: 1px solid #808080;
+  border-bottom: 1px solid #808080;
+  padding: 1em 0; }
+  .features div:first-child {
+    float: left; }
+  .features div:last-child {
+    float: right; }
+  .features div:nth-child(2) {
+    margin: 0 auto;
+    display: inline-block; }
+
+/*# sourceMappingURL=main.css.map */

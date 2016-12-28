@@ -1,0 +1,22 @@
+@mixin transition($duration, $style, $delay) {
+    -webkit-transition: all $duration $style $delay;
+    -moz-transition: all $duration $style $delay;
+    -ms-transition: all $duration $style $delay;
+	transition: all $duration $style $delay;
+}
+
+@mixin links ($link, $visit, $hover) {
+  a {
+    color: $link;
+    &:visited {
+      color: $visit;
+    }
+    &:hover {
+      color: $hover;   
+    }
+    &:active {
+      color: $visit;
+    }
+  }
+}
+
